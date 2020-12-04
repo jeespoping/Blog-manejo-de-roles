@@ -25,7 +25,7 @@
   <header class="space-inter">
     <div class="container container-flex space-between">
       <figure class="logo">
-        <img src="/img/logo.png" alt="">
+        <h2>YoReparo</h2>
       </figure>
       @include('partials.nav')
     </div>
@@ -37,25 +37,8 @@
   <section class="footer">
     <footer>
     <div class="container">
-      <figure class="logo"><img src="/img/logo.png" alt=""></figure>
-      <nav>
-        <ul class="container-flex space-center list-unstyled">
-          <li><a href="#" class="c-gris-2 text-uppercase active">home</a></li>
-          <li><a href="#" class="c-gris-2 text-uppercase">about</a></li>
-          <li><a href="#" class="c-gris-2 text-uppercase">archive</a></li>
-          <li><a href="#" class="c-gris-2 text-uppercase">contact</a></li>
-        </ul>
-      </nav>
+      <figure class="logo"><h2>YoReparo</h2></figure>
       <div class="divider-2"></div>
-      <p>Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.</p>
-      <div class="divider-2" style="width:80%;"></div>
-      <p>© 2017 - Zendero. All Rights Reserved. Designed & Developed by <span class="c-white">Agencia De La Web</span></p>
-      <ul class="social-media-footer list-unstyled">
-        <li><a href="#" class="fb"></a></li>
-        <li><a href="#" class="tw"></a></li>
-        <li><a href="#" class="in"></a></li>
-        <li><a href="#" class="pn"></a></li>
-      </ul>
     </div>
 </footer>
   </section>

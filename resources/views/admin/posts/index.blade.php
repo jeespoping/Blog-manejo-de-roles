@@ -45,6 +45,7 @@
 							<a href="{{ route('admin.posts.edit', $post) }}"
 								class="btn btn-xs btn-info"
 							><i class="fa fa-pencil"></i></a>
+
 							<form method="POST"
 								action="{{ route('admin.posts.destroy', $post) }}"
 								style="display: inline">

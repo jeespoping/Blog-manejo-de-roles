@@ -22,19 +22,19 @@ class PostsTableSeeder extends Seeder
     	Tag::truncate();
 
         $category = new Category;
-        $category->name = "Explore";
+        $category->name = "Electrodomesticos";
         $category->save();
 
         $category = new Category;
-        $category->name = "Watch";
+        $category->name = "Mano de obra";
         $category->save();
 
         $category = new Category;
-        $category->name = "Live";
+        $category->name = "Aseo";
         $category->save();
 
         $category = new Category;
-        $category->name = "Give";
+        $category->name = "Otros";
         $category->save();
 
         $post = new Post;

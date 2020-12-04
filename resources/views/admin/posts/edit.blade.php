@@ -25,7 +25,7 @@
 									<button class="btn btn-danger btn-xs" style="position: absolute">
 										<i class="fa fa-remove"></i>
 									</button>
-									<img class="img-responsive" src="{{ url($photo->url) }}">
+									<img class="img-responsive" src="{{ url('storage/'.$photo->url) }}">
 								</div>
 							</form>
 						@endforeach
@@ -72,7 +72,8 @@
 									   class="form-control pull-right"
 									   value="{{ old('published_at', $post->published_at ? $post->published_at->format('m/d/Y') : null) }}"
 									   type="text"
-									   id="datepicker">
+									   id="datepicker"
+									   autocomplete="off">
 							</div>
 						</div>
 						<div class="form-group {{ $errors->has('category_id') ? 'has-error' : '' }}">
